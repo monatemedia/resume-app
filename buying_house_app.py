@@ -8,17 +8,17 @@ with open("style.css") as f:
 # Header 
 st.write('''
 # Sentinel Financial
-##### *Data Apps & Templates* 
+##### *Buying Your First Home* 
 ''')
 
 image = Image.open('sentinel-logo.png')
 st.image(image, width=150)
 
-st.markdown('## Summary', unsafe_allow_html=True)
+st.markdown('## Some Housekeeping First', unsafe_allow_html=True)
 st.info('''
-- Experienced Educator, Researcher and Administrator with almost twenty years of experience in data-oriented environment and a passion for delivering insights based on predictive modeling. 
-- Strong verbal and written communication skills as demonstrated by extensive participation as invited speaker at `10` conferences as well as publishing 149 research articles.
-- Strong track record in scholarly research with H-index of `32` and total citation of 3200+.
+- This is not financial advice. This is just an account of my own personal experience, my thoughts on what to be on the lookout for and a calculator to help you figure out how much real estate actually costs. 
+- This app is written from the South African perspective, but it is written for a global audience. Therefore, many of the points I raise here will be applicable in your jurisdiction.
+- The calculator included is based on commonly accepted financial principles.
 ''')
 
 #####################
@@ -97,7 +97,7 @@ def txt4(a, b, c):
 
 #####################
 st.markdown('''
-## Education
+## How I Bought My First Apartment
 ''')
 
 txt('**Doctor of Philosophy** (Medical Technology), *Mahidol University*, Thailand',
@@ -118,7 +118,7 @@ st.markdown('''
 
 #####################
 st.markdown('''
-## Work Experience
+## How Property Purchase Transactions Happen
 ''')
 
 txt('**Head, Center of Data Mining and Biomedical Informatics**, Faculty of Medical Technology, Mahidol University, Thailand',
@@ -176,7 +176,7 @@ st.markdown('''
 
 #####################
 st.markdown('''
-## Bioinformatics Tools
+## Key Questions To Ask
 ''')
 txt4('ABCpred', 'A web server for the discovery of acetyl- and butyryl-cholinesterase inhibitors', 'http://codes.bio/abcpred/')
 txt4('AutoWeka', 'An automated data mining software based on Weka', 'http://www.mt.mahidol.ac.th/autoweka/')
@@ -199,7 +199,7 @@ txt4('THPep', 'A web server for predicting tumor homing peptides','http://codes.
 
 #####################
 st.markdown('''
-## Skills
+## How Much House Should You Buy
 ''')
 txt3('Programming', '`Python`, `R`, `Linux`')
 txt3('Data processing/wrangling', '`SQL`, `pandas`, `numpy`')
@@ -211,7 +211,7 @@ txt3('Model deployment', '`streamlit`, `gradio`, `R Shiny`, `Heroku`, `AWS`, `Di
 
 #####################
 st.markdown('''
-## Social Media
+## How Much is the Monthly Installment?
 ''')
 txt2('LinkedIn', 'https://www.linkedin.com/in/chanin-nantasenamat')
 txt2('Twitter', 'https://twitter.com/thedataprof')
@@ -223,3 +223,28 @@ txt2('Scopus', 'http://www.scopus.com/authid/detail.url?authorId=12039071300')
 txt2('ResearcherID', 'http://www.researcherid.com/rid/F-1021-2010')
 txt2('ResearchGate', 'https://www.researchgate.net/profile/Chanin_Nantasenamat')
 txt2('Publons', 'https://publons.com/a/303133/')
+
+#####################
+st.markdown('''
+## Home Loan Calculator
+''')
+
+#####################
+st.markdown('''
+## Open Secrets of Home Ownership
+''')
+
+#####################
+st.markdown('''
+## Why Do Properties Increase in Value Anyway?
+''')
+
+#####################
+st.markdown('''
+## Why People Don't Buy Property Sooner?
+''')
+
+#####################
+st.markdown('''
+## About the Author?
+''')
